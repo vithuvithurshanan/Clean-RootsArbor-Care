@@ -56,7 +56,7 @@ export default function Services() {
           {SERVICES.map((service) => (
             <Reveal as="div" className="s-card" key={service.title}>
               <div className="s-card__thumb">
-                <img src={service.image} alt={service.title} loading="lazy" />
+                <img src={service.image} alt={service.title} loading="lazy" width="800" height="600" />
               </div>
               <div className="s-card__body">
                 <div className="s-card__icon">

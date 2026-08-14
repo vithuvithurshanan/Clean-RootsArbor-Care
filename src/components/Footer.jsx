@@ -11,6 +11,9 @@ export default function Footer({ onOpenTerms, onOpenPrivacy }) {
                 src="/images/logo.webp"
                 alt="Clean Roots Arbor Care logo"
                 className="footer__logo-img"
+                width="600"
+                height="448"
+                loading="lazy"
               />
             </div>
           </a>
@@ -20,21 +23,21 @@ export default function Footer({ onOpenTerms, onOpenPrivacy }) {
           </p>
         </div>
         <div className="footer__col">
-          <h4>Quick Links</h4>
+          <h3>Quick Links</h3>
           <a href="#services">Services</a>
           <a href="#about">About Us</a>
           <a href="#gallery">Gallery</a>
           <a href="#contact">Contact</a>
         </div>
         <div className="footer__col">
-          <h4>Services</h4>
+          <h3>Services</h3>
           <a href="#services">Tree Trimming</a>
           <a href="#services">Tree Removal</a>
           <a href="#services">Stump Grinding</a>
           <a href="#services">Emergency Service</a>
         </div>
         <div className="footer__col">
-          <h4>Contact</h4>
+          <h3>Contact</h3>
           <a href="tel:+17164513377">(716) 451-3377</a>
           <a href="mailto:hello@cleanrootsarbor.com">hello@cleanrootsarbor.com</a>
           <span>1260 Clinton St, Buffalo, NY 14206</span>

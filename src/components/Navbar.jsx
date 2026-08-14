@@ -44,6 +44,8 @@ export default function Navbar() {
             src="/images/logo.webp"
             alt="Clean Roots Arbor Care logo"
             className="brand__logo"
+            width="169"
+            height="126"
             style={{ height: '72px', width: 'auto', display: 'block', objectFit: 'contain' }}
           />
         </a>

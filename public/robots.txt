@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://clean-roots-arbor-care.web.app/sitemap.xml

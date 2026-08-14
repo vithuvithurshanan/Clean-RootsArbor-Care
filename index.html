@@ -6,13 +6,38 @@
 <title>Clean Roots Arbor Care | Professional Tree Service</title>
 <meta name="description" content="Clean Roots Arbor Care - Licensed &amp; insured tree trimming, removal, stump grinding and emergency tree services. Free estimates." />
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌳</text></svg>" />
+<!-- Preconnect for fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<!-- Preconnect for GHL form -->
+<link rel="preconnect" href="https://link.kdlead.com" />
+<!-- Preload hero image for LCP -->
+<link rel="preload" as="image" href="/images/hero-bg.webp" fetchpriority="high" />
+<!-- Inline critical CSS to eliminate render-blocking -->
+<style>
+  :root{--forest-900:#0f2b1d;--forest-800:#163b27;--forest-700:#1f4d33;--forest-600:#2c6642;--amber-500:#d98a3d;--amber-600:#c17527;--amber-100:#fbe8d1;--cream:#faf7f0;--ink:#1c231e;--ink-soft:#4b564d;--white:#ffffff;--font-head:'Fraunces',Georgia,serif;--font-body:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--radius-sm:10px;--radius-md:18px;--radius-lg:28px;--shadow-sm:0 2px 10px rgba(15,43,29,.08);--shadow-md:0 12px 30px rgba(15,43,29,.12);--container:1180px}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--font-body);color:var(--ink);background:var(--cream);line-height:1.6;overflow-x:hidden}
+  img{max-width:100%;display:block}a{text-decoration:none;color:inherit}ul{list-style:none}button{font-family:inherit;cursor:pointer;border:none;background:none}
+  .container{max-width:var(--container);margin:0 auto;padding:0 24px}
+  h1,h2,h3,h4{font-family:var(--font-head);font-weight:600;color:var(--forest-900);line-height:1.15}
+  .nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:1px solid rgba(15,43,29,.06);transition:box-shadow .3s ease}
+  .nav__inner{display:flex;align-items:center;gap:28px;height:88px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .topbar{background:var(--forest-900);color:rgba(255,255,255,.85);font-size:.85rem}
+  .topbar__inner{display:flex;align-items:center;gap:28px;height:40px}
+  .hero{position:relative;min-height:100svh;display:flex;align-items:center;overflow:hidden;background:var(--forest-900)}
+  .hero__bg{position:absolute;inset:0;background:url('/images/hero-bg.webp') center/cover no-repeat}
+  [data-reveal]{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+  [data-reveal].is-visible{opacity:1;transform:translateY(0)}
+</style>
+<!-- Fonts loaded non-blocking -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" /></noscript>
 </head>
 <body>
 <div id="root"></div>
 <script type="module" src="/src/main.jsx"></script>
-<script src="https://link.kdlead.com/js/form_embed.js"></script>
 </body>
 </html>

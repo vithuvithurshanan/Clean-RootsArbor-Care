@@ -21,15 +21,17 @@ export default function App() {
     <>
       <Topbar />
       <Navbar />
-      <Hero />
-      <Services />
-      <About />
-      <Stats />
-      <Process />
-      <Gallery />
-      <Testimonials />
-      <CtaBanner />
-      <Contact />
+      <main>
+        <Hero />
+        <Services />
+        <About />
+        <Stats />
+        <Process />
+        <Gallery />
+        <Testimonials />
+        <CtaBanner />
+        <Contact />
+      </main>
       <Footer
         onOpenTerms={() => setLegalTab('terms')}
         onOpenPrivacy={() => setLegalTab('privacy')}

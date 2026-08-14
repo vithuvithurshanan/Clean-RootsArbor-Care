@@ -31,6 +31,8 @@ export default function Gallery() {
                   alt={item.label}
                   className="g-item__img"
                   loading="lazy"
+                  width="800"
+                  height="600"
                 />
                 <div className="g-item__overlay">
                   <span className="g-item__title">{item.label}</span>

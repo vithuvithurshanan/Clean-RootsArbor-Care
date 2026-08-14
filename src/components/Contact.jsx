@@ -107,6 +107,7 @@ export default function Contact() {
             data-layout-iframe-id="inline-BBjntj0DNSRtiP5FbZV5"
             data-form-id="BBjntj0DNSRtiP5FbZV5"
             title="Clean roots arbor care Form"
+            loading="lazy"
           ></iframe>
         </Reveal>
       </div>

@@ -70,8 +70,8 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; color: var(--f
   transition: transform .25s ease, box-shadow .25s ease, background .25s ease, color .25s ease;
   white-space: nowrap;
 }
-.btn--primary { background: var(--amber-500); color: var(--white); box-shadow: var(--shadow-sm); }
-.btn--primary:hover { background: var(--amber-600); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.btn--primary { background: var(--amber-500); color: var(--forest-900); box-shadow: var(--shadow-sm); }
+.btn--primary:hover { background: var(--amber-600); color: var(--forest-900); transform: translateY(-2px); box-shadow: var(--shadow-md); }
 .btn--ghost { background: rgba(255,255,255,0.1); color: var(--white); border: 1.5px solid rgba(255,255,255,0.5); backdrop-filter: blur(4px); }
 .btn--ghost:hover { background: rgba(255,255,255,0.18); transform: translateY(-2px); }
 .btn--light { background: var(--white); color: var(--forest-800); }
@@ -368,7 +368,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; color: var(--f
 .brand--footer .brand__mark { background: rgba(255,255,255,0.1); }
 .brand--footer .brand__text { color: var(--white); }
 .footer__brand p { margin-top: 16px; font-size: 0.92rem; max-width: 300px; }
-.footer__col h4 { color: var(--white); font-size: 0.95rem; margin-bottom: 18px; }
+.footer__col h3 { color: var(--white); font-size: 0.95rem; margin-bottom: 18px; }
 .footer__col { display: flex; flex-direction: column; gap: 12px; font-size: 0.92rem; }
 .footer__col a:hover { color: var(--amber-100); }
 .footer__bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; padding: 26px 24px; font-size: 0.82rem; }

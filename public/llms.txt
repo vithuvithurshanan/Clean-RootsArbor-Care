@@ -1,0 +1,23 @@
+# Clean Roots Arbor Care
+
+> Professional tree care services in Buffalo, NY. Licensed, bonded, and insured arborists offering tree trimming, removal, stump grinding, land clearing, and 24/7 emergency storm cleanup.
+
+## Services
+
+- [Tree Trimming & Pruning](https://clean-roots-arbor-care.web.app/#services)
+- [Tree Removal](https://clean-roots-arbor-care.web.app/#services)
+- [Stump Grinding & Removal](https://clean-roots-arbor-care.web.app/#services)
+- [24/7 Emergency Storm Cleanup](https://clean-roots-arbor-care.web.app/#services)
+- [Land & Lot Clearing](https://clean-roots-arbor-care.web.app/#services)
+- [Tree Health & Consultation](https://clean-roots-arbor-care.web.app/#services)
+
+## About
+
+- [About Clean Roots Arbor Care](https://clean-roots-arbor-care.web.app/#about)
+
+## Contact
+
+- [Get a Free Estimate](https://clean-roots-arbor-care.web.app/#contact)
+- Phone: (716) 451-3377
+- Address: 1260 Clinton St, Buffalo, NY 14206
+- Hours: Mon–Sat 7AM–6PM · 24/7 Emergency
